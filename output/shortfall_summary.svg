@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="510" viewBox="0 0 1060 510" role="img" aria-label="Baseline Monte Carlo results: average implementation shortfall and standard deviation in basis points">
+<rect width="1060" height="510" fill="#101822"/>
+<text x="45" y="51" fill="#f5f7f9" font-family="Arial,sans-serif" font-size="26" font-weight="bold">Synthetic execution-cost comparison</text>
+<text x="45" y="82" fill="#aebcc9" font-family="Arial,sans-serif" font-size="15">1,000 simulated scenarios · BUY 100,000 shares · seed 42 · basis points (bps)</text>
+<text x="50" y="138" fill="#dce5ed" font-family="Arial,sans-serif" font-size="18" font-weight="bold">Mean implementation shortfall</text>
+<text x="550" y="138" fill="#dce5ed" font-family="Arial,sans-serif" font-size="18" font-weight="bold">Standard deviation</text>
+<g font-family="Arial,sans-serif" font-size="16" fill="#f4f6f8">
+<text x="50" y="201">Immediate</text><text x="50" y="280">TWAP</text><text x="50" y="359">POV</text>
+<text x="550" y="201">Immediate</text><text x="550" y="280">TWAP</text><text x="550" y="359">POV</text>
+</g>
+<g fill="#46b8ad"><rect x="165" y="177" width="255" height="31" rx="5"/><rect x="165" y="256" width="34" height="31" rx="5"/><rect x="165" y="335" width="38" height="31" rx="5"/></g>
+<g fill="#7198e6"><rect x="660" y="177" width="5" height="31" rx="2"/><rect x="660" y="256" width="273" height="31" rx="5"/><rect x="660" y="335" width="249" height="31" rx="5"/></g>
+<g font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#e8f2f6">
+<text x="430" y="200">5.74</text><text x="211" y="279">0.77</text><text x="215" y="358">0.85</text>
+<text x="677" y="200">0.43</text><text x="938" y="279">29.81</text><text x="915" y="358">27.26</text>
+</g>
+<line x1="45" y1="415" x2="1015" y2="415" stroke="#455464"/>
+<text x="45" y="449" fill="#dce5ed" font-family="Arial,sans-serif" font-size="15">Lower mean cost does not imply lower execution risk.</text>
+<text x="45" y="476" fill="#aebcc9" font-family="Arial,sans-serif" font-size="14">Illustrative model results. Not calibrated market data or live execution performance.</text>
+</svg>
